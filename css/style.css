@@ -81,6 +81,7 @@ body .container .search input {
   outline: none;
   font-size: 18px;
   text-align: center;
+  border-radius: 5px;
 }
 body .container .result {
   width: 100%;
