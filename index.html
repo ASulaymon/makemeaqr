@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make me a QR | bepul QR kod yaratuvchi</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="/images/logo.jpg">
-    <meta name="description" content="Siz uchun shaxsiy QR kodlarni tez va oson, eng muhimi BEPUL yaratib beruvchi ishonchli xizmat. makemeaQR">
-    <meta name="author" content="ASulaymon">
-    <meta name="keywords" content="QR kod, QR, QR kod yaratish, makemeaqr, make, me, a, QR, Sulaymon, Abdusharipov, ASulaymon, kod, shtrix kod, URL, kink">
-    <meta name="theme-color" content="#4CAF50">
-</head>
-<body>
-    <div class="container">
-        <div class="text">
-            <h1>Makemeaqr QR kod yaratuvchi</h1>
-            <p>QR kodlarni oson va bepul yarating!</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Make me a QR | bepul QR kod yaratuvchi</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="/images/logo.jpg" />
+        <meta
+            name="description"
+            content="Siz uchun shaxsiy QR kodlarni tez va oson, eng muhimi BEPUL yaratib beruvchi ishonchli xizmat. makemeaQR"
+        />
+        <meta name="author" content="ASulaymon" />
+        <meta
+            name="keywords"
+            content="QR kod, QR, QR kod yaratish, makemeaqr, make, me, a, QR, Sulaymon, Abdusharipov, ASulaymon, kod, shtrix kod, URL, link, tekin, tekin QR kod"
+        />
+        <meta
+            name="theme-color"
+            media="(prefers-color-scheme: light)"
+            content="#4CAF50"
+        />
+        <meta
+            name="theme-color"
+            media="(prefers-color-scheme: dark)"
+            content="#4CAF50"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="text">
+                <h1>Makemeaqr QR kod yaratuvchi</h1>
+                <p>QR kodlarni oson va bepul yarating!</p>
+            </div>
+            <div class="search">
+                <input class="input" placeholder="URL kiriting" required />
+            </div>
+            <div class="result">
+                <img class="QRimg" src="" />
+            </div>
+            <div class="btns">
+                <button onclick="generate()" class="btn">Yaratish</button>
+                <button onclick="download()" class="btn download">
+                    Yuklab olish
+                </button>
+            </div>
         </div>
-        <div class="search">
-            <input class="input" placeholder="URL kiriting" required>
-        </div>
-        <div class="result">
-            <img class="QRimg" src="">
-        </div>
-        <div class="btns">
-            <button onclick="generate()" class="btn">Yaratish</button>
-            <button onclick="download()" class="btn download">Yuklab olish</button>
-        </div>
-    </div>
-</body>
-<script src="/js/script.js"></script>
-<script src="https://kit.fontawesome.com/4e53563d8d.js" crossorigin="anonymous"></script>
+    </body>
+    <script src="/js/script.js"></script>
+    <script
+        src="https://kit.fontawesome.com/4e53563d8d.js"
+        crossorigin="anonymous"
+    ></script>
 </html>
