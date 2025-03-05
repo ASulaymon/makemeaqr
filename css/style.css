@@ -120,7 +120,7 @@ body .container .btns .btn {
   flex: 1;
   opacity: 0.8;
   pointer-events: none;
-  cursor: pointer;
+  border-radius: 5px;
 }
 body .container .btns .btn::-moz-selection {
   background: #fff;
